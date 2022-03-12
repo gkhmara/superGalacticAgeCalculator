@@ -9,10 +9,12 @@ export default class Age {
   }
 
   ageConverter() {
-    if (this.planet === "mercury") {
+    if (this.planet.toUpperCase() === "MERCURY") {
       return (Math.round(this.age / this.mercury));
-    } else if (this.planet === "venus") {
+    } else if (this.planet.toUpperCase() === "VENUS") {
       return (Math.round(this.age / this.venus));
+    } else if (this.planet.toUpperCase() === "MARS") {
+      return (Math.round(this.age / this.mars));
     }
   }
 }
