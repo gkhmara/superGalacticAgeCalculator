@@ -15,6 +15,8 @@ export default class Age {
       return (Math.round(this.age / this.venus));
     } else if (this.planet.toUpperCase() === "MARS") {
       return (Math.round(this.age / this.mars));
+    } else if (this.planet.toUpperCase() === "JUPITER") {
+      return(Math.round(this.age / this.jupiter));
     }
   }
 }
