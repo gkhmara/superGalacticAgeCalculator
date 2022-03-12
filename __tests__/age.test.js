@@ -7,3 +7,7 @@ describe('Age', () => {
   });
 });
 
+test('should return age on Venus', () => {
+  let person1 = new Age("venus", 39);
+  expect(person1.ageConverter()).toEqual(63);
+})
