@@ -10,7 +10,7 @@ export default class Age {
 
   ageConverter() {
     if (this.planet === "mercury") {
-      return (this.age / this.mercury);
+      return (Math.round(this.age / this.mercury));
     }
   }
 }
