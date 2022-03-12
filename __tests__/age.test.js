@@ -13,7 +13,7 @@ describe('Age', () => {
 
   test('should return age on Mars', () => {
     let person1 = new Age("Mars", 39);
-    expect(person1.ageConverter()).toEqual(63);
+    expect(person1.ageConverter()).toEqual(21);
   })
 
 });
