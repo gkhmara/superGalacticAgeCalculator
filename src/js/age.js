@@ -7,4 +7,11 @@ export default class Age {
     this.mars = 1.88;
     this.jupiter = 11.86;
   }
+
+  ageConverter() {
+    if (this.planet === "mercury") {
+      return (this.age / this.mercury);
+    }
+  }
 }
+
