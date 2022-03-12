@@ -16,6 +16,11 @@ describe('Age', () => {
     expect(person1.ageConverter()).toEqual(21);
   })
 
+  test('should return age on jupiter', () => {
+    let person1 = new Age("jupiter", 39);
+    expect(person1.ageConverter()).toEqual(3);
+  })
+
 });
 
 
