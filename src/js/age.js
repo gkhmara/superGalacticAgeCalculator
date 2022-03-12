@@ -11,6 +11,8 @@ export default class Age {
   ageConverter() {
     if (this.planet === "mercury") {
       return (Math.round(this.age / this.mercury));
+    } else if (this.planet === "venus") {
+      return (Math.round(this.age / this.venus));
     }
   }
 }
