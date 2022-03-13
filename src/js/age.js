@@ -29,9 +29,15 @@ export default class Age {
       }
     } else if (this.planet.toUpperCase() === "VENUS") {
       if(age- (Math.round(this.age / this.venus)) < 0) {
-        return((age - (Math.round(this.age / this.venus))) * -1);
+        return ((age - (Math.round(this.age / this.venus))) * -1);
       } else {
         return (age - (Math.round(this.age / this.venus)));
+      }
+    } else if (this.planet.toUpperCase() === "MARS") {
+      if(age- (Math.round(this.age / this.mars)) < 0){
+        return ((age - (Math.round(this.age / this.mars))) * -1);
+      } else {
+        return (age - (Math.round(this.age / this.mars)));
       }
     }
   }
