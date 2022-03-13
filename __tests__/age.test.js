@@ -41,6 +41,14 @@ describe('Age', () => {
     expect(person1.yearsLeft(78)).toEqual(57);
     expect(person2.yearsLeft(78)).toEqual(2);
   });
+
+  test('should return years left to live on Jupiter based on users input', () => {
+    let person1 = new Age("jupiter", 39);
+    let person2 = new Age("jupiter", 840);
+    expect(person1.yearsLeft(78)).toEqual(75);
+    expect(person2.yearsLeft(78)).toEqual(1);
+  })
+
 });
 
 
