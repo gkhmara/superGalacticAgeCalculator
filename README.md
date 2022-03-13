@@ -6,11 +6,8 @@
 
 ## Technologies Used
 
-* HTML
-* CSS
-* Bootstrap
 * JavaScript
-* jQuery
+* Jest
 
 ## Description
 
@@ -19,7 +16,8 @@ This site will take in users age and planet of choice and give them their age ba
 ## Setup/Installation Requirements
 
 * Clone the repo from Gitup
-* Open index.html in browser
+* In terminal or console type npm install
+* In terminal or console type npm run build
 
 ## Known Bugs
 
@@ -29,7 +27,7 @@ This site will take in users age and planet of choice and give them their age ba
 
 MIT License
 
-Copyright (c) 02-13-22 Greg Khmara  
+Copyright (c) 03-12-22 Greg Khmara  
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
