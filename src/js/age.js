@@ -28,19 +28,19 @@ export default class Age {
         return (age - (Math.round(this.age / this.mercury)));
       }
     } else if (this.planet.toUpperCase() === "VENUS") {
-      if(age- (Math.round(this.age / this.venus)) < 0) {
+      if(age - (Math.round(this.age / this.venus)) < 0) {
         return ((age - (Math.round(this.age / this.venus))) * -1);
       } else {
         return (age - (Math.round(this.age / this.venus)));
       }
     } else if (this.planet.toUpperCase() === "MARS") {
-      if(age- (Math.round(this.age / this.mars)) < 0){
+      if(age - (Math.round(this.age / this.mars)) < 0){
         return ((age - (Math.round(this.age / this.mars))) * -1);
       } else {
         return (age - (Math.round(this.age / this.mars)));
       }
     } else if (this.planet.toUpperCase() === "JUPITER") {
-      if(age- (Math.round(this.age / this.jupiter)) < 0){
+      if(age - (Math.round(this.age / this.jupiter)) < 0){
         return ((age - (Math.round(this.age / this.jupiter))) * -1);
       } else {
         return (age - (Math.round(this.age / this.jupiter)));
