@@ -23,7 +23,7 @@ export default class Age {
   yearsLeft(age) {
     if(this.planet.toUpperCase() === "MERCURY") {
       if (age - (Math.round(this.age / this.mercury)) < 0) {
-      return ((age - (Math.round(this.age / this.mercury))) * -1);
+        return ((age - (Math.round(this.age / this.mercury))) * -1);
       } else {
         return (age - (Math.round(this.age / this.mercury)));
       }
