@@ -31,7 +31,7 @@ describe('Age', () => {
   test('should return years left to live on Venus based on user input', () => {
     let person1 = new Age("venus", 39);
     let person2 = new Age("venus", 80);
-    expect(person1.yearsLeft(78)).toEqual(16);
+    expect(person1.yearsLeft(78)).toEqual(15);
     expect(person2.yearsLeft(78)).toEqual(51);
   })
 
