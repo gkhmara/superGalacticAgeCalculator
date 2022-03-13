@@ -16,9 +16,16 @@ describe('Age', () => {
     expect(person1.ageConverter()).toEqual(21);
   })
 
-  test('should return age on jupiter', () => {
+  test('should return age on Jupiter', () => {
     let person1 = new Age("jupiter", 39);
     expect(person1.ageConverter()).toEqual(3);
+  })
+
+  test('should return years left to live based on user input', () => {
+    let person1 = new Age("mercury", 39);
+    let person2 = new Age("mercury", 1);
+    expect(person1.yearsLeft(78)).toEqual(85);
+    expect(person2.yearsLeft(78)).toEqual(74);
   })
 
 });
